@@ -42,6 +42,10 @@ table {
     border-spacing: 0;
 }
 
+*:hover {
+  transition: .2s;
+}
+
 /* width */
 ::-webkit-scrollbar {
     width: .5rem;
@@ -64,3 +68,13 @@ table {
     background: #47489a; 
     transition: .3s;
   }
+
+  .nav-side {
+    width: 12.22%;
+    height: 100%;
+    background-color: var(--secondary-01);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}

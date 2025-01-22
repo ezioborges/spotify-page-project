@@ -1,0 +1,46 @@
+
+/* imagens do left-nav-first */
+.img-home {
+    background-image: url('../img/Home_outline.png');
+}
+
+.img-home:hover {
+    background-image: url('../img/home-solid.png');
+}
+
+.img-search {
+    background-image: url('../img/Search_outline.png');
+}
+
+.img-search:hover {
+    background-image: url("../img/Search_Solid.png");
+}
+
+.img-library {
+    background-image: url("../img/Library_outline.png");
+}
+
+.img-library:hover {
+    background-image: url("../img/Library_Solid.png");
+}
+
+/* imagens do left-nav-two */
+.img-create-playlist {
+    background-image: url("../img/add-playlist.png");
+}
+
+.img-create-playlist:hover {
+    background-image: url('../img/add-playlist-solid.png');
+} 
+
+.img-liked-songs {
+    background-image: url('../img/liked-songs.png');
+}
+
+.nav-tabs-liked-songs:hover {
+    background-color: rgba(255, 255, 255, 20%);
+    background-image: url('../img/Search_Solid.png');
+    font-weight: 700;
+    color: var(--secondary-03);
+}
+
