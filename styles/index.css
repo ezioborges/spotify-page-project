@@ -5,6 +5,44 @@
 @import "./body-content.css";
 @import "./left-nav.css";
 @import "./nav-left-img.css";
+@import "./nav-left-playlist.css";
 
+:root {
+    /* primary */
+    --primary-01: #1DB954;
+    
+    /* secondary */
+    --secondary-01: #000;
+    --secondary-02: #191414;
+    --secondary-03: #fff;
 
+    /* neutral */
+    --neutral-01: #B2B2B2;  
+    --neutral-02: #777;  
+    --neutral-03: #535353;
+    
+    /* genre */
+    --genre-01: #55A891;
+    --genre-02: #27856A;
+    --genre-03: #5F8109;
+    --genre-04: #F037A5;
+    --genre-05: #AF2596;
+    --genre-06: #AF2896;
+    --genre-07: #477D95;
+    --genre-08: #509BF5;
+    --genre-09: #1D3164;
+    --genre-10: #E8115B;
+    --genre-11: #E13300;
+    --genre-12: #BA5D07;
 
+    font-family: 'Roboto', serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: var(--secondary-02);
+    display: flex;
+    justify-content: space-between;
+}

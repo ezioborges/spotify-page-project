@@ -4,6 +4,7 @@
     place-self: center;
     height: 100%;
     display: flex;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -19,24 +20,28 @@
     color: var(--neutral-01);
 }
 
-.left-nav-first {
+.left-nav {
     display: flex;
     flex-direction: column;
     gap: .25rem;
-    height: 8rem;
     justify-content: space-around;
     transform: translateY(1rem);
     width: 90.9%;
 }
 
-.left-nav-two {
-    display: flex;
-    flex-direction: column;
-    gap: .25rem;
+.first-heigth {
+    height: 8rem;
+}
+
+.second-heigth {
     height: 5.2rem;
     margin-top: 1rem;
-    transform: translateY(1rem);
-    width: 90.9%;
+}
+
+.third-heigth {
+    height: 39.1rem;
+    margin-top: .3rem;
+    border: 1px solid pink;
 }
 
 .img-config {

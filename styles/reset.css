@@ -48,7 +48,8 @@ table {
 
 /* width */
 ::-webkit-scrollbar {
-    width: .5rem;
+    width: .25rem;
+    height: 15rem;
   }
   
   /* Track */

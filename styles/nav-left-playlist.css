@@ -1,0 +1,28 @@
+.divider {
+    width: 90.9%;
+    height: 1px;
+    background-color: var(--neutral-01);
+    opacity: 40%;
+    margin-top: 2rem;
+}
+
+ul {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.list-item {
+    width: 100%;
+    height: 1rem;
+    border: 1px solid green;
+}
+
+.list-item span {
+    font-weight: 400;
+    width: 45%;
+    font-size: .75rem;
+    line-height: .875rem;
+    color: var(--neutral-01) !important;
+    border: 1px solid red;
+    margin-left: .75rem;
+}
