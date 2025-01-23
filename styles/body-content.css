@@ -1,4 +1,114 @@
 .body-content {
     width: 75.56%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.main-nav {
+    width: 60.5rem;
+    height: 3rem;
+    margin-top: .25rem;
+    display: flex;
+    align-items: center;
+}
+
+.main-nav > .img-search {
+    padding-left:1.563rem;
+    background-repeat: no-repeat;
+}
+
+.main-nav > .img-search:hover {
+    background-image: url('../img/Search_outline.png')
+}
+
+.main-nav-input {
+    border: none;
+    border-radius: 1.25rem;
+    background-color: #fff;
+    width: 15rem;
+    height: 1.5rem;
+    margin-left: 4.25rem;
+}
+
+.artist-content {
+    width: 60.5rem;
+    height: 54.75rem;
+    color: var(--secondary-03);
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+
+.artist-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 9.5rem;
+    height: 12.625rem;
+    border-radius: 0.25rem;
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+.close-button {
+    width: 1rem;
+    height: 1rem;
+    margin-top: .25rem;
+    margin-left: 8rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--secondary-02);
+    cursor: pointer;
+}
+
+.close-button > img {
+    width: .5rem;
+    height: .5rem;
+}
+
+.artist-image-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8rem;
+    height: 8rem;
+}
+
+.artist-image-content > img {
+    width: 8rem;
+}
+
+.artists-list {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.artist-decribe {
+    height: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.artist-decribe > .name {
+    width: 8rem;
+    height: 1rem;
+    font-size: .875rem;
+    font-weight: 700;
+    line-height: 1rem;
+    color: var(--secondary-03);
+}
+
+.artist-decribe > .position {
+    width: 8rem;
+    height: .875rem;
+    font-size: .75rem;
+    font-weight: 400;
+    line-height: .875rem;
+    color: var(--neutral-02);
 }
