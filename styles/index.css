@@ -1,9 +1,6 @@
-@import "./init-config.css";
-@import "./reset.css";
-@import "./nav-left-img.css";
-@import "./nav-left.css";
-@import "./spotify-page.css";
 @import "./body-content.css";
-@import "./left-nav.css";
+@import "./init-config.css";
 @import "./nav-left-img.css";
 @import "./nav-left-playlist.css";
+@import "./nav-left.css";
+@import "./reset.css";
